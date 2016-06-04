@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sample.View.NavigationBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_bar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@android:color/holo_blue_light"
+    android:clickable="true">
+    <!--real icon size = ${?attr/actionBarSize} - 32 = 8dp-->
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:padding="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/search_black_96" />
+
+    <ImageView
+        android:id="@+id/iv_history"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentRight="true"
+        android:padding="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/history_100" />
+</com.sample.View.NavigationBar>

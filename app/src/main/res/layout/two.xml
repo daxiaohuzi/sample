@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    android:orientation="vertical">
+
+
+    <com.library.view.widget.CustomLayout.RowLayout
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/icon" />
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/icon" />
+
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/icon" />
+
+    </com.library.view.widget.CustomLayout.RowLayout>
+
+    <com.library.view.widget.CustomLayout.TextEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="我是来测试的" />
+
+    <!--<com.library.view.widget.CustomLayout.RowLayout-->
+    <!--android:id="@+id/view2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<com.library.view.widget.CustomLayout.RowLayout-->
+    <!--android:id="@+id/view3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+
+    <Button
+        android:id="@+id/nextFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳到下一个Fragment" />
+
+    <Button
+        android:id="@+id/toActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回到Activity" />
+
+    <Button
+        android:id="@+id/toTwoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回到twoFragment" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

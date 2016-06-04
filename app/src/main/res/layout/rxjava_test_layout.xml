@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/rxjava_create"
+        style="@style/btnStyle"
+        android:text="RxJava create" />
+
+
+    <Button
+        android:id="@+id/rxjava_filter"
+        style="@style/btnStyle"
+        android:text="RxJava filter" />
+
+    <Button
+        android:id="@+id/rxjava_map"
+        style="@style/btnStyle"
+        android:text="RxJava Map" />
+
+    <Button
+        android:id="@+id/rxjava_flatMap"
+        style="@style/btnStyle"
+        android:text="RxJava flatMap" />
+
+    <Button
+        android:id="@+id/rxjava_lift"
+        style="@style/btnStyle"
+        android:text="RxJava Lift" />
+
+    <Button
+        android:id="@+id/rxjava_delay"
+        style="@style/btnStyle"
+        android:text="RxJava Delay" />
+
+    <Button
+        android:id="@+id/rxjava_do"
+        style="@style/btnStyle"
+        android:text="RxJava Do" />
+
+    <Button
+        android:id="@+id/rxjava_timeout"
+        style="@style/btnStyle"
+        android:text="RxJava TimeOut" />
+
+    <Button
+        android:id="@+id/rxjava_timeInterval"
+        style="@style/btnStyle"
+        android:text="RxJava timeInterval" />
+
+    <Button
+        android:id="@+id/rxjava_skip"
+        style="@style/btnStyle"
+        android:text="RxJava skip" />
+
+    <Button
+        android:id="@+id/rxjava_take"
+        style="@style/btnStyle"
+        android:text="RxJava take" />
+</LinearLayout>

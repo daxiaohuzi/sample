@@ -62,6 +62,11 @@
             style="@style/btnStyle"
             android:text="跳转自定义View" />
 
+        <Button
+            android:id="@+id/jump_tabLayout"
+            style="@style/btnStyle"
+            android:text="跳转tab Layout" />
+
     </LinearLayout>
 
 </ScrollView>

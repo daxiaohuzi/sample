@@ -28,9 +28,9 @@ public class MultiTouchDelegate extends TouchDelegate {
         super(bounds, delegateView);
 
         if (mBounds == null) {
-            mBounds = new ArrayList<>(3);
-            mSlopBounds = new ArrayList<>(3);
-            mTouchDelegateViews = new ArrayList<>(3);
+            mBounds = new ArrayList<>(4);
+            mSlopBounds = new ArrayList<>(4);
+            mTouchDelegateViews = new ArrayList<>(4);
         }
 
         try {

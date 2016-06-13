@@ -28,7 +28,7 @@ public class GuideFragment extends BaseBackStackFragment<MainActivity> {
 
     @OnClick({R.id.jump_rxjava, R.id.jump_viewPager, R.id.jump_taobao_anim, R.id.jump_statusBar,
             R.id.jump_circleBar, R.id.jump_Bezier, R.id.jump_Bezier3, R.id.jump_stack
-            , R.id.jump_simpleRecyclerFragment, R.id.jump_custom_view})
+            , R.id.jump_simpleRecyclerFragment, R.id.jump_custom_view, R.id.jump_tabLayout})
     public void click(View v) {
         switch (v.getId()) {
             case R.id.jump_stack:
@@ -66,6 +66,9 @@ public class GuideFragment extends BaseBackStackFragment<MainActivity> {
                 break;
             case R.id.jump_custom_view:
                 getSelftActivity().addFragment(new CustomViewFragment());
+                break;
+            case R.id.jump_tabLayout:
+                getSelftActivity().addFragment(new TabLayoutFragment());
                 break;
         }
     }
